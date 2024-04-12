@@ -13,7 +13,7 @@ namespace TrueScore
     {
         public const string ModGUID = "Electric131.TrueScore";
         public const string ModName = "TrueScore";
-        public const string ModVersion = "1.0.0";
+        public const string ModVersion = "1.0.1";
 
         public static ManualLogSource? logger;
 
@@ -50,6 +50,8 @@ namespace TrueScore
                 __instance.m_ViewsText,
                 " (",
                 SurfaceNetworkHandler.RoomStats.CurrentQuota.ToString(),
+                "/",
+                SurfaceNetworkHandler.RoomStats.QuotaToReach.ToString(),
                 " Score)"
             });
             return false;

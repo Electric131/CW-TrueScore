@@ -2,7 +2,7 @@
     "name": "TrueScore",
     "author": "Electric131",
     "website_url": "https://github.com/Electric131/CW-TrueScore",
-    "version_number": "1.0.0",
+    "version_number": "1.0.1",
     "description": "View your exact score, and remove the ambiguity of views.",
     "dependencies": [
         "BepInEx-BepInExPack-5.4.2100"
