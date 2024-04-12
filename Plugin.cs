@@ -8,12 +8,13 @@ using UnityEngine;
 
 namespace TrueScore
 {
+    [ContentWarningPlugin(ModGUID, ModVersion, vanillaCompatible: true)]
     [BepInPlugin(ModGUID, ModName, ModVersion)]
     public class Plugin : BaseUnityPlugin
     {
         public const string ModGUID = "Electric131.TrueScore";
         public const string ModName = "TrueScore";
-        public const string ModVersion = "1.0.1";
+        public const string ModVersion = "1.0.2";
 
         public static ManualLogSource? logger;
 
